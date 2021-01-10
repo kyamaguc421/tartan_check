@@ -1,0 +1,112 @@
+:root {
+  --length-long: 132px;
+  --length-middle: 68px;
+  --length-short: 39px;
+  --color-a: #333;
+  --color-b: #bbb;
+  --color-c: #666;
+  --color-d: #eee;
+}
+
+body {
+  /* margin: 0px; */
+}
+
+table {
+  text-align: center;
+}
+
+div {
+  display: inline-block;
+  font-size: 0;
+}
+
+.block {
+  display: block;
+}
+
+.squareBig {
+  width: var(--length-long);
+  height: var(--length-long);
+}
+.squareMiddle {
+  width: var(--length-middle);
+  height: var(--length-middle);
+}
+.squareSmall {
+  width: var(--length-short);
+  height: var(--length-short);
+}
+.verticalLong {
+  width: var(--length-short);
+  height: var(--length-long);
+}
+.verticalMiddle {
+  width: var(--length-short);
+  height: var(--length-middle);
+}
+.horizontalLong {
+  width: var(--length-long);
+  height: var(--length-short);
+}
+.horizontalMiddle {
+  width: var(--length-middle);
+  height: var(--length-short);
+}
+.verticalRectangle {
+  width: var(--length-middle);
+  height: var(--length-long);
+}
+.horizontalRectangle {
+  width: var(--length-long);
+  height: var(--length-middle);
+}
+
+.aa {
+  background: repeating-linear-gradient(-45deg, var(--color-a) 0px, var(--color-a) 2px, var(--color-a) 2px, var(--color-a) 4px);
+}
+.ab {
+  background: repeating-linear-gradient(-45deg, var(--color-a) 0px, var(--color-a) 2px, var(--color-b) 2px, var(--color-b) 4px);
+}
+.ac {
+  background: repeating-linear-gradient(-45deg, var(--color-a) 0px, var(--color-a) 2px, var(--color-c) 2px, var(--color-c) 4px);
+}
+.ad {
+  background: repeating-linear-gradient(-45deg, var(--color-a) 0px, var(--color-a) 2px, var(--color-d) 2px, var(--color-d) 4px);
+}
+.ba {
+  background: repeating-linear-gradient(-45deg, var(--color-b) 0px, var(--color-b) 2px, var(--color-a) 2px, var(--color-a) 4px);
+}
+.bb {
+  background: repeating-linear-gradient(-45deg, var(--color-b) 0px, var(--color-b) 2px, var(--color-b) 2px, var(--color-b) 4px);
+}
+.bc {
+  background: repeating-linear-gradient(-45deg, var(--color-b) 0px, var(--color-b) 2px, var(--color-c) 2px, var(--color-c) 4px);
+}
+.bd {
+  background: repeating-linear-gradient(-45deg, var(--color-b) 0px, var(--color-b) 2px, var(--color-d) 2px, var(--color-d) 4px);
+}
+.ca {
+  background: repeating-linear-gradient(-45deg, var(--color-c) 0px, var(--color-c) 2px, var(--color-a) 2px, var(--color-a) 4px);
+}
+.cb {
+  background: repeating-linear-gradient(-45deg, var(--color-c) 0px, var(--color-c) 2px, var(--color-b) 2px, var(--color-b) 4px);
+}
+.cc {
+  background: repeating-linear-gradient(-45deg, var(--color-c) 0px, var(--color-c) 2px, var(--color-c) 2px, var(--color-c) 4px);
+}
+.cd {
+  background: repeating-linear-gradient(-45deg, var(--color-c) 0px, var(--color-c) 2px, var(--color-d) 2px, var(--color-d) 4px);
+}
+.da {
+  background: repeating-linear-gradient(-45deg, var(--color-d) 0px, var(--color-d) 2px, var(--color-a) 2px, var(--color-a) 4px);
+}
+.db {
+  background: repeating-linear-gradient(-45deg, var(--color-d) 0px, var(--color-d) 2px, var(--color-b) 2px, var(--color-b) 4px);
+}
+.dc {
+  background: repeating-linear-gradient(-45deg, var(--color-d) 0px, var(--color-d) 2px, var(--color-c) 2px, var(--color-c) 4px);
+}
+.dd {
+  background: repeating-linear-gradient(-45deg, var(--color-d) 0px, var(--color-d) 2px, var(--color-d) 2px, var(--color-d) 4px);
+}

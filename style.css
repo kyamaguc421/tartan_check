@@ -1,0 +1,112 @@
+:root {
+  --length-long: 132px;
+  --length-middle: 68px;
+  --length-short: 39px;
+  --color-a: #333;
+  --color-b: #bbb;
+  --color-c: #666;
+  --color-d: #eee;
+}
+
+body {
+  /* margin: 0px; */
+}
+
+table {
+  text-align: center;
+}
+
+div {
+  display: inline-block;
+  font-size: 0;
+}
+
+.block {
+  display: block;
+}
+
+.squareBig {
+  width: var(--length-long);
+  height: var(--length-long);
+}
+.squareMiddle {
+  width: var(--length-middle);
+  height: var(--length-middle);
+}
+.squareSmall {
+  width: var(--length-short);
+  height: var(--length-short);
+}
+.verticalLong {
+  width: var(--length-short);
+  height: var(--length-long);
+}
+.verticalMiddle {
+  width: var(--length-short);
+  height: var(--length-middle);
+}
+.horizontalLong {
+  width: var(--length-long);
+  height: var(--length-short);
+}
+.horizontalMiddle {
+  width: var(--length-middle);
+  height: var(--length-short);
+}
+.verticalRectangle {
+  width: var(--length-middle);
+  height: var(--length-long);
+}
+.horizontalRectangle {
+  width: var(--length-long);
+  height: var(--length-middle);
+}
+
+.aa {
+  background: linear-gradient(45deg, var(--color-a) 25%, transparent 25%, transparent 75%, var(--color-a) 75%) 0 0 / 4px 4px,linear-gradient(45deg, var(--color-a) 25%, transparent 25%, transparent 75%, var(--color-a) 75%) 2px 2px / 4px 4px,var(--color-a);
+}
+.ab {
+  background: linear-gradient(45deg, var(--color-a) 25%, transparent 25%, transparent 75%, var(--color-a) 75%) 0 0 / 4px 4px,linear-gradient(45deg, var(--color-a) 25%, transparent 25%, transparent 75%, var(--color-a) 75%) 2px 2px / 4px 4px,var(--color-b);
+}
+.ac {
+  background: linear-gradient(45deg, var(--color-a) 25%, transparent 25%, transparent 75%, var(--color-a) 75%) 0 0 / 4px 4px,linear-gradient(45deg, var(--color-a) 25%, transparent 25%, transparent 75%, var(--color-a) 75%) 2px 2px / 4px 4px,var(--color-c);
+}
+.ad {
+  background: linear-gradient(45deg, var(--color-a) 25%, transparent 25%, transparent 75%, var(--color-a) 75%) 0 0 / 4px 4px,linear-gradient(45deg, var(--color-a) 25%, transparent 25%, transparent 75%, var(--color-a) 75%) 2px 2px / 4px 4px,var(--color-d);
+}
+.ba {
+  background: linear-gradient(45deg, var(--color-b) 25%, transparent 25%, transparent 75%, var(--color-b) 75%) 0 0 / 4px 4px,linear-gradient(45deg, var(--color-b) 25%, transparent 25%, transparent 75%, var(--color-b) 75%) 2px 2px / 4px 4px,var(--color-a);
+}
+.bb {
+  background: linear-gradient(45deg, var(--color-b) 25%, transparent 25%, transparent 75%, var(--color-b) 75%) 0 0 / 4px 4px,linear-gradient(45deg, var(--color-b) 25%, transparent 25%, transparent 75%, var(--color-b) 75%) 2px 2px / 4px 4px,var(--color-b);
+}
+.bc {
+  background: linear-gradient(45deg, var(--color-b) 25%, transparent 25%, transparent 75%, var(--color-b) 75%) 0 0 / 4px 4px,linear-gradient(45deg, var(--color-b) 25%, transparent 25%, transparent 75%, var(--color-b) 75%) 2px 2px / 4px 4px,var(--color-c);
+}
+.bd {
+  background: linear-gradient(45deg, var(--color-b) 25%, transparent 25%, transparent 75%, var(--color-b) 75%) 0 0 / 4px 4px,linear-gradient(45deg, var(--color-b) 25%, transparent 25%, transparent 75%, var(--color-b) 75%) 2px 2px / 4px 4px,var(--color-d);
+}
+.ca {
+  background: linear-gradient(45deg, var(--color-c) 25%, transparent 25%, transparent 75%, var(--color-c) 75%) 0 0 / 4px 4px,linear-gradient(45deg, var(--color-c) 25%, transparent 25%, transparent 75%, var(--color-c) 75%) 2px 2px / 4px 4px,var(--color-a);
+}
+.cb {
+  background: linear-gradient(45deg, var(--color-c) 25%, transparent 25%, transparent 75%, var(--color-c) 75%) 0 0 / 4px 4px,linear-gradient(45deg, var(--color-c) 25%, transparent 25%, transparent 75%, var(--color-c) 75%) 2px 2px / 4px 4px,var(--color-b);
+}
+.cc {
+  background: linear-gradient(45deg, var(--color-c) 25%, transparent 25%, transparent 75%, var(--color-c) 75%) 0 0 / 4px 4px,linear-gradient(45deg, var(--color-c) 25%, transparent 25%, transparent 75%, var(--color-c) 75%) 2px 2px / 4px 4px,var(--color-c);
+}
+.cd {
+  background: linear-gradient(45deg, var(--color-c) 25%, transparent 25%, transparent 75%, var(--color-c) 75%) 0 0 / 4px 4px,linear-gradient(45deg, var(--color-c) 25%, transparent 25%, transparent 75%, var(--color-c) 75%) 2px 2px / 4px 4px,var(--color-d);
+}
+.da {
+  background: linear-gradient(45deg, var(--color-d) 25%, transparent 25%, transparent 75%, var(--color-d) 75%) 0 0 / 4px 4px,linear-gradient(45deg, var(--color-d) 25%, transparent 25%, transparent 75%, var(--color-d) 75%) 2px 2px / 4px 4px,var(--color-a);
+}
+.db {
+  background: linear-gradient(45deg, var(--color-d) 25%, transparent 25%, transparent 75%, var(--color-d) 75%) 0 0 / 4px 4px,linear-gradient(45deg, var(--color-d) 25%, transparent 25%, transparent 75%, var(--color-d) 75%) 2px 2px / 4px 4px,var(--color-b);
+}
+.dc {
+  background: linear-gradient(45deg, var(--color-d) 25%, transparent 25%, transparent 75%, var(--color-d) 75%) 0 0 / 4px 4px,linear-gradient(45deg, var(--color-d) 25%, transparent 25%, transparent 75%, var(--color-d) 75%) 2px 2px / 4px 4px,var(--color-c);
+}
+.dd {
+  background: linear-gradient(45deg, var(--color-d) 25%, transparent 25%, transparent 75%, var(--color-d) 75%) 0 0 / 4px 4px,linear-gradient(45deg, var(--color-d) 25%, transparent 25%, transparent 75%, var(--color-d) 75%) 2px 2px / 4px 4px,var(--color-d);
+}
